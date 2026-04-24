@@ -1,0 +1,18 @@
+import numpy as np
+
+matrix = np.random.randint(1,101,(5,5))
+
+print("Matrix:\n",matrix)
+
+print("Min =",np.min(matrix))
+print("Max =",np.max(matrix))
+
+'''Output:
+Matrix:
+ [[ 5  3  8  1  9]
+ [10 12 15 20 25]
+ [30 35 40 45 50]
+ [55 60 65 70 75]
+ [80 85 90 95 100]]
+Min = 1
+Max = 100'''
